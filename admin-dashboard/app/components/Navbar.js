@@ -2,8 +2,8 @@
 import Link from "next/link";
 
 const navLinks = [
-  { href: "/create", label: "Create New Post" },
   { href: "/history", label: "All Post" },
+  { href: "/create", label: "Create New Post" },
 ];
 
 export default function Navbar() {
